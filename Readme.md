@@ -1,5 +1,5 @@
 ## Cold Email Generator
-The project goal is to generate a cold email which can be used to send to the hiring manager with relevance to the job description which is given as input.
+The project goal is to generate a cold email which can be used to send email to the hiring manager with relevance to the job description which is given as input.
 
 ###  Loading the URL Content using Langchain Web Base Loader
 * In this step the goal is to extract relevant job description content from a given URL. This could be a job posting or a company’s career page, which contains the details of the job requirements.
