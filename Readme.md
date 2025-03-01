@@ -7,7 +7,7 @@ The project goal is to generate a cold email which can be used to send email to 
 
 ### Matching Portfolio Link and Job Skills
 * To ensure that the generated cold email aligns with both the job requirements and the applicant’s qualifications, we extract key details from the portfolio and job description and use them to craft a personalized email prompt.
-* Loaded the portifolio using .csv file and stored in vector database
+* Loaded the portifolio using .csv file format and stored in vector database (Chroma DB)
 
 ### Creating an LLM Chain Using Langchain to Integrate Chatgroq and Prompt
 * An LLM Chain takes the processed input (prompt with relevant job and portfolio information) and sends it through a language model like llama-3.1.
