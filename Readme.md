@@ -1,4 +1,4 @@
-## Cold Email Generator
+## Cold Email Generator using Llama and Groq
 The project goal is to generate a cold email which can be used to send email to the hiring manager with relevance to the job description which is given as input.
 
 ###  Loading the URL Content using Langchain Web Base Loader
@@ -11,7 +11,7 @@ The project goal is to generate a cold email which can be used to send email to 
 
 ### Creating an LLM Chain Using Langchain to Integrate Chatgroq and Prompt
 * An LLM Chain takes the processed input (prompt with relevant job and portfolio information) and sends it through a language model like llama-3.1.
-* We integrate this LLM Via Chat Groq.It takes the prompt as input and outputs a cold email.
+* We integrate this LLM Via Chat Groq and host it. It takes the prompt using the groq api as input and outputs a cold email.
 
 ### Generated Output:
 The LLM processes this input and generates a cold email that introduces the candidate and highlights how their skills match the job description. It might include specific project details, technical skills, and a professional closing.
